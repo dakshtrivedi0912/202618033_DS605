@@ -26,7 +26,7 @@ The objective of this assignment is to build an end-to-end data pipeline that ha
 ## Project Structure
 
 ```
-bookscraper/
+202618033_Lab_1/
 ├── bookscraper/
 │   ├── __pycache__/
 │   ├── spiders/
