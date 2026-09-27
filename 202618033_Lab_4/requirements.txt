@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 pandas>=2.0
 numpy>=1.24
 scikit-learn>=1.3
 catboost>=1.2
 matplotlib>=3.7
 jupyter>=1.0
+=======
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+catboost>=1.2
+matplotlib>=3.7
+jupyter>=1.0
+>>>>>>> 4ae6ac7 (Update Assignment 5)
 gradio>=4.44

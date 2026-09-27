@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "features": [
     "neighbourhood_group",
@@ -28,4 +29,36 @@
     "R2": 0.4507470792019712,
     "MedianAE": 22.28189462051536
   }
+=======
+{
+  "features": [
+    "neighbourhood_group",
+    "neighbourhood",
+    "latitude",
+    "longitude",
+    "room_type",
+    "minimum_nights",
+    "number_of_reviews",
+    "reviews_per_month",
+    "calculated_host_listings_count",
+    "availability_365",
+    "last_review_year",
+    "last_review_month"
+  ],
+  "categorical_features": [
+    "neighbourhood_group",
+    "neighbourhood",
+    "room_type"
+  ],
+  "target": "price",
+  "target_transform": "log1p",
+  "inverse_transform": "expm1",
+  "random_state": 42,
+  "metrics": {
+    "MAE": 44.99397924991706,
+    "RMSE": 87.54117940413208,
+    "R2": 0.4507470792019712,
+    "MedianAE": 22.28189462051536
+  }
+>>>>>>> 4ae6ac7 (Update Assignment 5)
 }
